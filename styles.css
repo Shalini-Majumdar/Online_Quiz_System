@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e4c0ec;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #a260ce;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #d9bde0;
+}
+
+/* added*/
+
+.quiz-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+}
+
+
+form {
+    width: 350px; /* Slightly bigger */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Form hover effect */
+form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Input field improvements */
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Focus effect for input fields */
+input:focus {
+    border-color: #a260ce;
+    outline: none;
+    box-shadow: 0 0 5px rgba(162, 96, 206, 0.5);
+}
+
+/* Button transitions */
+.btn {
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Centering elements */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Error message styling */
+p.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
